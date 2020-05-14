@@ -26,7 +26,7 @@ class Counter extends React.Component{
 
         clearInterval(this.timerId)
         this.setState({showStartButton: true})
-        alert(`The counter1 is at ${this.state.timer}` ) 
+        this.props.timerStopped(this.state.timer);
     }
 
     startTimer = () => {
