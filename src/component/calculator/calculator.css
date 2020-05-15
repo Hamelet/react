@@ -1,0 +1,27 @@
+.button {
+    padding: 5px 10px 5px 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.buttonLine {
+    margin-bottom: 5px;
+}
+
+.calcInput {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    width: 175px;
+    height: 50px;
+}
+
+.calculator {
+    background-color: grey;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+}
